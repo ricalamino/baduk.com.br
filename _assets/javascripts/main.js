@@ -12,14 +12,14 @@
         },
 
         STRINGS = {
-            CORRECT:         'Brawo! ',
-            FAIL:            'Źle. ',
-            YOUR_TURN:       'Twój ruch.',
-            BLACK_TURN:      'Ruch czarnego.',
-            WHITE_TURN:      'Ruch białego.',
-            WHITE_PLAYS:     'Biały gra...',
-            ILLEGAL_KO:      'Niedozwolony ruch - KO.',
-            ILLEGAL_SUICIDE: 'Niedozwolony ruch - samobójstwo.'
+            CORRECT:         'Correto! ',
+            FAIL:            'Errado. ',
+            YOUR_TURN:       'Sua vez.',
+            BLACK_TURN:      'Vez das pretas.',
+            WHITE_TURN:      'Vez das brancas.',
+            WHITE_PLAYS:     'Brancas jogam...',
+            ILLEGAL_KO:      'Jogada ilegal - KO.',
+            ILLEGAL_SUICIDE: 'Jogada ilegal - suicídio.'
         },
 
         ERRORS = {

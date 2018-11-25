@@ -20,9 +20,9 @@ module Jekyll
     end
 
     def template(sgf, params={})
-      params[:status] ||= "Twój ruch."
-      params[:reset] ||= "Jeszcze raz."
-      params[:fallback] ||= "Jeżeli chcesz rozwiązywać problemy interaktywnie, musisz włączyć JavaScript."
+      params[:status] ||= "Sua vez."
+      params[:reset] ||= "Jogar novamente."
+      params[:fallback] ||= "Para utilizar nossos problemas interativos você deve ativar JavaScript."
 
       back = "<a class=\"back button\">#{params[:back]}</a>" if params[:back]
       reset = "<a class=\"reset button\">#{params[:reset]}</a>" unless params[:noreset]
@@ -52,7 +52,7 @@ module Jekyll
   class DiagramBlock < SgfBlock
     def render(context)
       "<div class=\"sgf diagram\" data-sgf=\"#{read_sgf(context)}\">
-        <div class=\"board\">Jeżeli chcesz przeglądać diagramy, musisz włączyć JavaScript.</div>
+        <div class=\"board\">Para visualizar os diagramas você deve ativar JavaScript.</div>
         <div class=\"description\">#{super}</div>
       </div>"
     end
@@ -61,7 +61,7 @@ module Jekyll
   class ReviewBlock < SgfBlock
     def render(context)
       "<div class=\"sgf review\" data-sgf=\"#{read_sgf(context)}\">
-        <div class=\"board\">Jeżeli chcesz przeglądać gry, musisz włączyć JavaScript.</div>
+        <div class=\"board\">Para procurar jogos você deve ativar JavaScript.</div>
         <div class=\"description\">#{super}</div>
         <div class=\"comments\"></div>
       </div>"
@@ -74,9 +74,9 @@ module Jekyll
         read_sgf(context),
         cls: "freeplay",
         description: super,
-        reset: "Od początku",
-        back: "Cofnij",
-        status: "Ruch czarnego."
+        reset: "Resetar",
+        back: "Voltar",
+        status: "Vez das pretas."
       )
     end
   end
@@ -87,7 +87,7 @@ module Jekyll
         read_sgf(context),
         cls: "blackplay",
         description: super,
-        reset: "Od początku"
+        reset: "Resetar"
       )
     end
   end
