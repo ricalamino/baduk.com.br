@@ -302,10 +302,10 @@
 
             counter += 1;
 
-            api.progress("Ruchów: " + counter + "<br>Kamieni do zbicia: " + whiteCount);
+            api.progress("Movimentos: " + counter + "<br>Pedras para capturar: " + whiteCount);
 
             if (whiteCount === 0) {
-                triggerSuccess("Udało Ci się zbić wszystkie kamienie białego. Liczba wykonanych ruchów: " + counter);
+                triggerSuccess("Você conseguiu capturar todas as pedras brancas. Número de movimentos feitos: " + counter);
             }
         }
 

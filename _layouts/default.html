@@ -20,18 +20,18 @@
 <div class="wrapper">
 
     <header>
-        <h1>Interaktywny Kurs Go</h1>
+        <h1>Aprenda a Jogar Go Interativamente</h1>
     </header>
 
     {% include side.html %}
 
     <article id="content">
 
-        <section class="event">
+        <!-- <section class="event">
             <a href="http://mp.go.art.pl/2018/pl/strefa-nauki" title="Naucz się grać podczas mistrzostw Polski w Go w Poznaniu">
                 {% asset mp.png alt="Mistrzostwa Polski w Go, 8-11 listopada 2018" %}
             </a>
-        </section>
+        </section> -->
 
         {% if page.title %}
         <section class="title">
@@ -49,15 +49,15 @@
         <section class="bottom-navigation">
             <p class="prev_lesson">
                 {% if page.prev_lesson %}
-                    {% lesson_button page.prev_lesson Wstecz %}
+                    {% lesson_button page.prev_lesson Anterior %}
                 {% else %}
-                    <a href="/" class="button">Wprowadzenie</a>
+                    <a href="/" class="button">Introdução</a>
                 {% endif %}
             </p>
 
             {% if page.next_lesson %}
             <p class="next_lesson">
-                {% lesson_button page.next_lesson Dalej %}
+                {% lesson_button page.next_lesson Próximo %}
             </p>
             {% endif %}
         </section>
