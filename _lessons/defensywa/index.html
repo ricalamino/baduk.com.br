@@ -1,38 +1,47 @@
 ---
-title: Defensywa
+title: Defesa
 ---
 <section>
-    <p>Teraz wiesz, że połączone ukośnie kamienie mogą być rozcięte przez przeciwnika.
-        Zanim zostaną rozcięte możesz się jednak ubezpieczyć.</p>
+    <p> Agora você sabe que pedras conectadas diagonalmente podem ser cortadas pelo oponente.
+        Antes de ser cortado, você pode se defender. </p>
 
     {% diagram 0 %}
-        <p>Jeżeli biały zagra tutaj cięcie w <b>F6</b>, dwa czarne kamienie znajdą się w niebezpieczeństwie.</p>
-        <p>Dlatego czarny powinien zagrać ruch ubezpieczający przed cięciem.</p>
-        <p>Jest to ruch <b>łączący</b>.</p>
+        <p> Se o branco joga aqui um corte em <strong>F6</strong>, duas pedras pedras (F7 e E6) estarão em perigo. </p>
+        <p> É por isso que o preto deve jogar a defensivamente antes do corte. </p>
+        <p> Este é um movimento de <strong>conexão</strong>. </p>
+
     {% enddiagram %}<p>
 
     {% diagram 1 %}
-        <p>Tutaj, po <b>F6</b>, czarny mocno łączy swoje kamienie.</p>
-        <p>Jest to <b>twarde łączenie</b>. Biały nie będzie miał już możliwości ich przecięcia.</p>
+        <p> Aqui, depois de <strong>F6</strong>, o preto conecta suas pedras com força. </p>
+        <p> Isso é uma <strong>conexão direta</strong>. O branco não poderá mais cortá-las.</p>
     {% enddiagram %}
 
-    <p>Poniżej możesz zobaczyć <b>luźne łączenie</b>.</p>
+    
+    <p> Abaixo, você pode ver uma <strong>conexão indireta </strong> . </p>
 
     {% freeplay 2 %}
-        <p>Biały może oczywiście zagrać <b>F6</b>, jednak zostałby od razu zabity ruchem w <b>F5</b>.
-            Spróbuj proszę grając na planszy przeanalizować to samemu.</p>
-        <p>Kamienie są zatem wirtualnie połączone.</p>
+    <p> O branco pode, claro, jogar <strong> F6 </strong>, mas ele será morto instantaneamente com <strong> F5 </strong>.
+        Por favor, tente analisá-lo no quadro. </p>
+    <p> As pedras estão virtualmente conectadas. </p>
+    <p>Jogue à vontade no tabuleiro.</p>
     {% endfreeplay %}
 
-    <p>Luźny rodzaj połączenia jest nieco bardziej rozciągnięty niż połączenie twarde.</p>
-    <p>Jeżeli wiesz, kiedy zagrać we właściwym miejscu luźne łączenie, nie będziesz już długo początkującym.</p>
+    <p> Esses tipos de conexões indiretas são jogadas mais elaboradas do que as conexões diretas.</p>
+	<p>Se você souber exatamente quando deve fazer uma conexão indireta, você não é um mais iniciante, com certeza. </p>
+    
 
-    {% freeplay 3 %}
-        <p>Na tym diagramie kamienie czarnego mają dwa miejsca cięcia - w <b>E5</b> i <b>F4</b>.
-            Wydaje się, że któryś z nich będzie przecięty...</p>
-        <p>Istnieje jednak ruch, który chroni obydwa miejsca cięcia jednocześnie!</p>
-        <p>Zobacz proszę ruch w <b>F5</b>.</p>
-        <p>Teraz białe nie mogą grać ani <b>E5</b>, ani <b>F4</b>.<br>
-            Stało się tak, ponieważ <b>F5</b> łączy luźnym połączeniem oba miejsca jednocześnie.</p>
+    {% freeplay 3 %} 
+    <p> Na figura, as pretas têm dois pontos de corte em <strong>E5</strong> e <strong>F4</strong>.</p>
+    <p>
+        Você pode pensar qual deles será cortado...
+        Há um bom movimento o qual defende os dois pontos fracos simultaneamente!
+    </p>
+    <p>Por favor, faça um movimento em <strong>F5</strong>.
+        Agora as brancas não podem jogar nem em <strong>E5</strong> nem em <strong>F4</strong>.
+        Esse é o motivo pelo qual <strong>F5</strong> é uma conexão indireta para ambos.
+    </p>
+    <p>
+        Por causa da forma, essa conexão é chamada de <strong>conexão trombeta</strong>.
     {% endfreeplay %}
 </section>
