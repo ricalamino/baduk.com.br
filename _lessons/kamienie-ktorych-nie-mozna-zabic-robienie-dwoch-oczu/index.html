@@ -1,40 +1,47 @@
 ---
-title: Kamienie, których nie można zabić - robienie dwóch oczu!
+title: Pedras que não podem ser capturadas - Fazendo 2 olhos!
 ---
 <section>
-	<p>Czarny znów jest zadowolony - grający białymi nie będzie odpowiadał.<br>
-	Niedozwolone ruchy będą jednak blokowane.</p>
+	<p>O paraíso das pretas de novo - as brancas não irão responder.
+		Entretanto, fique atento aos movimentos ilegais. </p>
 
     {% blackplay BlackHeaven2 %}
-		Zbij wszystkie białe kamienie.
+		Mate todas as pedras brancas.
 	{% endblackplay %}
 </section>
 	
 <section>
-<h3>Kamienie, których nie można zabić</h3>
-    <p>Jak zapewne spostrzegłeś w ostatnim przykładzie, nawet grupa składająca się z wielu kamieni może zostać zabita, gdy zostanie otoczona.</p>
+	<h3>Pedras que não podem ser capturadas</h3>
+    <p>Como você deve ter percebido no último exemplo, mesmo grupos com muitas pedras podem
+		ser mortos uma vez que estejam cercados. </p>
 
     {% diagram 0-can-kill %}
-        Na przykład, na tym diagramie czarne kamienie zostały dokładnie otoczone - nie mają dokąd uciec - można tylko czekać na zabicie przez białe ruchem w środek.
+	<p> Por exemplo, na figura, as pretas estão completamente cercadas
+		- não há saída - só esperar para serem mortas pelo movimento das brancas no centro.</p>
 	{% enddiagram %}
 
-	<p>A co w sytuacji poniżej?</p>
+	<p>Mas e no próximo caso? </p>
 
     {% diagram 1-two-eyes %}
-        Pomimo że czarne są otoczone, białe nie mogą ich zabić. Są dwa miejsca potrzebne do zabicia czarnej grupy - ale oba otoczone przez czarne, więc biały nie może w nie grać.
+		<p>Embora as pretas estejam cercadas, as brancas não podem capturá-las. Há ainda 2
+	lugares para matar o grupo preto - eles estão ambos cercados por pedras pretas onde as
+brancas não podem jogar.</p>
 	{% enddiagram %}
 
-    <p>Dlatego gdy masz 2 odseparowane miejsca, czyli <b>dwoje oczu</b>, Twoje kamienie nigdy nie będą zabite. <br>
-        O takich grupach kamieni mówimy, że są <b>żywe</b>.</p>
+    <p> Portanto, uma vez que você faça 2 espaços separados, ou <strong>2 olhos</strong>, suas pedras
+		nunca serão capturadas. </p>
+		<p>Tal grupo de pedras é considerado <strong>vivo</strong>.
+		</p>
 </section>
 
 <section>
-	<p>Czarne są znowu zadowolone.</p>
+	<p>Paraíso das pretas novamente.</p>
 
 	{% blackplay BlackHeaven3 %}
 	<p></p>
 	{% endblackplay %}
 
-	<p>Udało Ci się zabić białe?</br>
-	Założe się, że nie! Są nadal żywe, ponieważ mają dwoje oczu.</p>
+	<p>Você conseguiu capturá-las? </p>
+		<p>Aposto que não! Elas estão vivas pois cada grupo tem 2 olhos.
+		</p>
 </section>

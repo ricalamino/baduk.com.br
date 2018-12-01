@@ -1,8 +1,8 @@
 # Site settings
-title: Aprenda a Jogar Go Interativamente
+title: Aprenda a Jogar Go Interativamente (Baduk ou Weiqi)
 description: >
-  Aprenda a Jogar Go Interativamente.
-url: "https://go.alamino.net/playgoto" # the base hostname & protocol for your site
+  Aprenda a Jogar Go Interativamente (Baduk.com.br).
+url: "https://baduk.com.br" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
