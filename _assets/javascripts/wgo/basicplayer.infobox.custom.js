@@ -26,7 +26,7 @@ var prepare_dom_box = function(type) {
 	t.box.appendChild(info_wrapper);
 	
 	t.info = {};
-	t.info.caps = prepare_dom_info("Jeńców");
+	t.info.caps = prepare_dom_info("Capturas");
 	t.info.caps.val.innerHTML = "0";
 	info_wrapper.appendChild(t.info.caps.wrapper);
 }

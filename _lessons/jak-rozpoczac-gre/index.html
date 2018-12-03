@@ -1,57 +1,42 @@
 ---
-title: Jak rozpocząć grę?
+title: Como começar?
 ---
 <section>
-    <P>Dotychczas uczyłeś się, jak zabijać kamienie.<br>
-        Na początku prawdziwej gry musisz jednak grać na planszy, na której nic nie ma.</p>
+    <p>Até agora você pode até já ter entendido como matar as pedras.
+        Entretanto, no começo de um jogo real, você tem que jogar no tabuleiro vazio.</p>
 
-    <p>Celem w Go jest zdobycie jak największego terytorium. Na początku twoim zadaniem będzie otoczenie
-        terytorium, czyli pustych miejsc.</p>
+    <p>O objetivo do Go é cercar o máximo de território possível. No início você tem que tentar cercar território, isto é, espaços vazios.</p>
 
     {% diagram 0 %}
-        <p>Na diagramie z lewej są dwie czarne grupy: jedna w lewym górnym rogu, druga na prawym brzegu.<br>
-        Obie zawierają po 9 miejsc lub 9 <b>punktów</b>.</p>
-        <p>Biała grupa w centrum ma także 9 punktów. Miejsca całkowicie otoczone przez kamienie
-            tego samego koloru nazywamy <b>terytorium</b>.</p>
-
-        <p>Terytorium każdej z trzech grup wynosi teraz 9 punktów.
-            Policzmy, ile kamieni potrzeba do otoczenia terytorium.</p>
-
-        <ul>
-            <li>w rogu - 6 kamieni</li>
-            <li>na brzegu - 9 kamieni</li>
-            <li>w centrum - 12 kamieni</li>
-        </ul>
-
-        <p>Jak widać otaczanie terytorium w rogu jest najbardziej efektywne, a otaczanie terytorium
-        w centrum najmniej efektywne.</p>
-        <p>Dlatego na początku gry obie strony próbują zdobyć rogi planszy.
-            Zagrania w centrum są rzadko spotykane.</p>
+        <p>Na figura, há dois grupos de pedras pretas: um no canto superior esquerdo e um do lado direito.
+            Cada um deles tem 9 espaços, ou 9 <strong>pontos</strong>.</p>
+                <p> Um grupo branco no meio também  tem 9 pontos. Esses espaços completamente cercados por pedras da mesma cor são chamados de <strong>territórios</strong>.</p>
+                <p> Agora, os três grupos acima, cada um deles tem um território de 9 pontos. Conte o número de pedras necessárias para cercar o território.</p>
+                <ul>
+                    <li>Canto - 6 pedras</li>
+                    <li>Lado - 9 pedras</li>
+                    <li>Centro - 12 pedras</li>
+                </ul>
+                <p>Portanto, você pode cercar territórios nos cantos mais eficientemente, enquanto que territórios no meio são menos eficientes.
+                Portanto, no começo do jogo, cada jogador irá tentar cercar os cantos do tabuleiro. Você raramente vê jogadas no centro. </p>
     {% enddiagram%}
 </section>
 
 <section>
-    <p>Na planszy poniżej możesz zobaczyć początek prawdziwej gry rozegranej na planszy 13x13.</p>
+    <p>Você pode ver como jogos reais começam num tabuleiro 13x13 logo abaixo.</p>
 
     {% review 1 %}
-        <p>Wpierw przeciwnicy zajmują pozycje w pobliżu dwóch rogów.</p>
-        <p>Miejsce położenia pierwszego kamienia czarnych nazywamy <b>punktem 3-3 </b>
-            ( lub<b> san-san</b>), gdyż znajduje się na przecięciu 3 linii pionowej z 3 poziomą,
-            licząc od strony rogu. Ten ruch stwarza pozycję gwarantującą utrzymanie rogu.</p>
-
-        <p>W następnym ruchu białe również grają w punkt 3-3.</p>
-
-        <p>Miejsce następnego czarnego kamienia jest zwane <b>punktem 4-4</b> ( lub <b>hoshi</b>)
-            Miejsce to jest oznaczone małym czarnym kółkiem. Ten kamień otacza większe pole w rogu
-            niż zagrany w punkt 3-3. Jednak zdecydowanie łatwiej go zaatakować, ponieważ pomiędzy
-            nim, a brzegiem planszy jest dużo pól.</p>
-
-        <p>Czwarty ruch białych jest również popularny.</p>
-
-        <p>Oczywiście możesz zagrać w dowolne miejsce na planszy, jeżeli ruch nie jest zabroniony.
-            Jednak naturalny przebieg gry to z rogów ku brzegom, ewentualnie do centrum.</p>
-
-        <p>Pomimo że rogi to najlepsze miejsca do zdobycia terytorium, niewskazane są ruchy
-            takie jak <b>M2</b> lub <b>N1</b>, ponieważ ich oddziaływanie jest zbyt małe.</p>
+        <p> Primeiro, cada jogador jogou em posições perto de dois cantos.
+            O primeiro movimento das pretas é chamado de <strong>3-3 pontos </strong>(ou<strong> san-san</strong>)
+        pois está localizado na terceira linha vertical e horizantal contando a partir do lado mais próximo. Esse movimento garante uma posição que pode obter o canto. </p>
+        <p> Na próxima jogada, brancas também jogaram um 3-3 pontos.
+            O próximo movimento das pretas e chamado de <strong>4-4 pontos</strong> (ou <strong>hoshi</strong>)
+        onde está marcado com um pequeno círculo preto. Esse ponto pode cercar um canto maior que uma jogada em 3-3 pontos. Entretanto, ele pode ser invadido mais facimente pois tem mais espaços entre ele e o limite do tabuleiro. </p>
+        <p> O quarto movimento das brancas também é muito popular.
+        </p>
+        <p>
+            É claro, você pode jogar em qualquer lugar no tabuleiro se não for um movimento ilegal.
+            Geralmente, um jogo prossegue dos cantos aos lados e eventualmente para o centro.
+        Embora os cantos sejam os melhores lugares para se ganhar território, ninguém faria movimentos como <strong>M2</strong> ou <strong>N1</strong> pois o ganho seria muito pequeno. </p>
     {% endreview %}
 </section>

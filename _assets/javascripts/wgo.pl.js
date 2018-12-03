@@ -6,8 +6,8 @@
                           + "<p>Wersja dostosowana do Interaktywnego Kursu Go</p>"
                           + "<p>Szczególy <a href='http://wgo.waltheri.net/player' target='_blank'>wgo.waltheri.net/player</a></p>"
             + "<p>Copyright &copy; 2013 Jan Prokop</p>",
-        "black": "Czarny",
-        "white": "Biały",
+        "black": "Pretas",
+        "white": "Brancas",
         "DT": "Data",
         "KM": "Komi",
         "HA": "Handicap",
