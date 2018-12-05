@@ -1,65 +1,52 @@
 ---
-title: Zakończenie
+title: Fim do jogo
 ---
 <section>
-    <p>Tutaj nauczysz się jak określić, że gra jest skończona i jak obliczyc zdobyte terytorim.
-Będziemy do tego używać planszy 5x5.</p>
+    <p>Aqui você aprenderá quando um jogo está para acabar e como contar território usando tabuleiros de 5x5. </p>
 
     {% diagram diag-1 %}
-        <p>W tym miejscu każdy z graczy wykonał 5 ruchów i gra jest uważana za zakończoną.</p>
-        Czarny zdobył 5 punktów z lewej strony, biały 10 punktów z prawej.
-        <p>Tak więc biały wygrał z 5 punktów.</p>
+        <p>Ambos os lados fizeram 5 movimentos cada e o jogo é considerado acabado.
+		Pretas têm 5 pontos à esquerda e as brancas têm 10 pontos à direita.</p>
+		<p> Portanto brancas ganharam por 5 pontos.</p>
+		<p>
+			Você pode calcular o território contando as interseções de linhas verticais e horizontais.
 
-        <p>Mozesz obliczyć terytorium zliczając miejsca przecięcia linii pionowych z poziomymi.</p>
-
-        <p>Narożniki i krawędzie są również terytorium.<br>
-            Pamiętaj, że kamenie nie są wliczane do terytorium.</p>
+            Cantos e bordas também são território.
+			Lembre-se que as pedras <strong>não</strong> são contadas como território.
+		</p>
     {% enddiagram %}
 
     {% diagram diag-2 %}
-        <p>Gra jest uznawana za zakończoną, kiedy obydwie strony powiedzą "pas", ponieważ nie
-            ma już więcej ruchów do wykonania.</p>
-
-        <p>Dlaczego partia na diagramie powyżej jest uznana za zakończoną?</p>
-
-        <p>Kontynuacją powyższej partii byłyby prawdopodobnie ruch czarnego na terytorium białego.</p>
-
-        <p>Jak widać biały może łatwo obronić się przed inwazją. Zobacz na diagramie z lewej.</p>
-
-        <p>Tak więc czarny nie będzie robił takich ruchów.</p>
+        <p>Um jogo é considerado acabado quando ambos os lados passam, pois eles não querem fazer mais movimentos. </p>
+        <p> Por que podemos considerá-lo um jogo terminado?
+        Continuando o jogo, assuma que as pretas fizeram um movimento dentro do território das brancas.</p>
+        <p>As brancas podem facilemente capturar a invasora. Veja na figura.</p>
+        <p>Portanto as pretas não precisam fazer tal movimento.</p>
     {% enddiagram %}
 
     {% diagram diag-3 %}
-        <p>Co się stanie, jeżeli zrobisz ruch wewnątrz własnego terytorium?</p>
-
-        <p>Tym ruchem redukujesz swoje terytorium o 1 punkt. Nikt nie chce tego robić!</p>
-
-        <p>Dlatego sytuacja na pierwszym diagramie jest uważana za koniec gry.</p>
-
-        <p>(Chociaż czasami zdarza się, że powinieneś zagrać wewnątrz własnego terytorium dla
-            zapewnienia sobie dwojga oczu, lub dla wzmocnienia swojej ściany.)</p>
+        <p>Agora, o que acontece se você fizer um movimento dentro do seu próprio território? </p>
+        <p> Com esse movimento você reduziria o seu território de 1 ponto. Ninguém quer fazer isso!</p>
+        <p>
+            Portanto, a primeira figura dessa página é considerada como fim do jogo.
+            (Embora algumas vezes você tenha que jogar dentro do seu próprio território para fazer dois olhos ou para fortalecer seus limites.)
+        </p>
     {% enddiagram %}
 
     {% diagram diag-4 %}
-        <p>To także jest koniec gry. <br>
-            Czarny ma 5 punktów, biały 6 punktów - białe wygrały jednym punktem.</p>
-
-        <p>Co z dwoma punktami w środku? Nazywamy je "<b>Dame</b>" - punkty neutralne
-            - które nie należą do nikogo.</p>
-
-        <p> Możesz tam zagrać, jeśli chcesz, jednak ani nic nie zyskasz, ani nie stracisz.</p>
+        <p>Pretas têm 5 pontos e Brancas têm 6 pontos - brancas ganharam por 1 ponto. </p>
+        <p> E esses 2 pontos no centro? Eles são chamados "<strong>Dame</strong>" - área neutra - a qual não pertence a nenhum lado.</p>
+        <p> Você pode jogar aqui se você quiser, embora você não perderá nem ganhará nenhum ponto.
+        </p>
     {% enddiagram %}
 </section>
 
 <section>
-<h3>Kiedy gra się kończy?</h3>
+<h3>Quando um jogo acaba?</h3>
     <ul>
-        <li>Kiedy obie strony nie widzą już dla siebie miejsca na sensowny ruch i pasują.<br>
-            Wtedy obliczają sobie wzajemnie terytorium i zdobywca większego wygrywa.<br>
-            Twój końcowy wynik to Twoje terytorium na planszy plus zabite przez Ciebie kamienie (jeńcy).</li>
-        <li>Jeżeli jedna ze stron dochodzi w trakcie gry do wniosku, że cokolwiek by nie uczyniła,
-            nie jest w stanie wygrać partii, może grę poddać.<br>
-            W przeciwieństwie do wielu innych gier poddanie jest zakończeniem honorowym. Granie, gdy
-                jest się skazanym na porażkę nie jest.</li>
+        <li>Quando ambos os lados não querem jogar em lugar nenhum e passam sucessivamente.
+            Então ambos os territórios são contados e o maior vence.
+        Sua pontuação final é seu território no tabuleiro, mais as pedras capturadas por você que foram removidas do tabuleiro.</li>
+        <li>Quando um dos lados acha que não pode ganhar não importando o que faça e então desiste. (Diferente de muitos outros jogos, isso é considerado uma saída honrosa. Continuar jogando face a uma derrotata iminente não o é.)</li>
     </ul>
 </section>
