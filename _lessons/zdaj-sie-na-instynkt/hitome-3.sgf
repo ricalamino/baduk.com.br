@@ -1,21 +1,21 @@
 (;GM[1]FF[4]CA[UTF-8]AP[CGoban:3]ST[2]
 RU[Japanese]SZ[9]KM[0.00]
 AW[ef][eg][fh]AB[cg][dg][fg][eh]DD[fi]
-(;B[gh]C[[OK\]Czarny łapie F2.])
+(;B[gh]C[[OK\]Pretas capturaram F2.])
 (;B[]
-;W[dh]C[Biały łapie E2.])
+;W[dh]C[Brancas capturaram E2.])
 (;B[dh]
-;W[gg]C[Biały łapie F3.])
+;W[gg]C[Brancas capturaram F3.])
 (;B[ch]
-;W[gg]C[Biały łapie F3.])
+;W[gg]C[Brancas capturaram F3.])
 (;B[ci]
-;W[gg]C[Biały łapie F3.])
+;W[gg]C[Brancas capturaram F3.])
 (;B[di]
-;W[gg]C[Biały łapie F3.])
+;W[gg]C[Brancas capturaram F3.])
 (;B[ei]
-;W[gg]C[Biały łapie F3.])
+;W[gg]C[Brancas capturaram F3.])
 (;B[fi]
-;W[gh]C[F2 ucieka.])
+;W[gh]C[F2 fugiu.])
 (;B[gi]DD[gi]
 ;W[dh]
 (;B[ei]
