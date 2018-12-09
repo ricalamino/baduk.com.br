@@ -2,8 +2,15 @@
     <nav>
         <p><a href="/"{% unless page.title %} class="active"{% endunless %}>Introdução</a></p>
         <ol>
+            {% assign i = 0 %}
             {% for lesson in site.lessons %}
+                {% if lesson.title == 'Jogos entre Fan Hui(2p) e AlphaGo' %}
+                    <br />
+                    <p><a href="/fanhui-alphago"{% unless page.title %} class="active"{% endunless %}>Partidas do Alphago</a></p>
+
+                {% endif %}
                 <li>{% lesson_link lesson %}</li>
+                
             {% endfor %}
         </ol>
     </nav>
