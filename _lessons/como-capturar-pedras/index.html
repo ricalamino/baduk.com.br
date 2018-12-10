@@ -1,0 +1,27 @@
+---
+title:  Como capturar pedras?
+---
+<section>
+    <p> O objetivo em Go é criar um "território" maior que o adversário. </p>
+        <p> Primeiramente, escolher um lugar para uma pedra pode ser difícil, porque você pode colocá-la no quadro em quase todos os lugares. </p>
+        <p> Uma forma de criar um terreno é obter pedras inimigas. </p>
+        <p> Pedras cercadas são removidas do tabuleiro e tomadas pelo inimigo como prisioneiros. </p>
+        <p> Cada prisioneiro vale um ponto. </p>
+
+    {% diagram 0-atari %}
+        <p> Na próxima jogada, o branco será completamente cercado e será removido. </p>
+        <p> Sobre as pedras que podem ser removidas com um movimento, dizemos que elas estão no <b> Atari </b>. </p>
+    {% enddiagram %}
+    
+    {% diagram 1-before-catch %}
+        <p> A pedra branca agora está cercada e é por isso que ... </p>
+    {% enddiagram %}
+    
+    {% diagram 2-after-catch %}
+        <p> ... é removido do tabuleiro. </p>
+    {% enddiagram %}
+    
+    {% diagram 3-extend %}
+        <p> Se houver um movimento branco, ele pode escapar combinando pedras. </p>
+    {% enddiagram %}
+</section>
