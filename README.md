@@ -1,26 +1,26 @@
-# Interaktywny Kurs Go
+# Aprenda a Jogar Go Interativamente
 
-Jest to odnowiona wersja kursu Go, który przez wiele lat dostępny był na [go.art.pl](http://go.art.pl), będący jednocześnie polskim tłumaczeniem kursu ze strony [playgo.to/iwtg/en](http://playgo.to/iwtg/en/). Poprzednia wersja silnie wykorzystywała aplety Javy, które nie są już wspierane przez najnowsze przeglądarki, a na urządzeniach mobilnych całkowicie niedostępne. 
+Esta é uma versão renovada do curso Go, *traduzida para o português*, que por muitos anos estava disponível em [go.art.pl] (http://go.art.pl), que também é uma tradução em polonês do curso de [playgo.to/iwtg/en] ( http://playgo.to/iwtg/en/). A versão anterior usava fortemente applets Java, que não são mais suportados pelos navegadores mais recentes e estão completamente indisponíveis em dispositivos móveis.
 
-Nowa wersja kursu ma na celu zwiększenie dostępności oraz wzbogacenie kursu o nowe lekcje i materiały.
+A nova versão do curso visa aumentar a disponibilidade, usabilidade e enriquecer o curso com novas lições e materiais.
  
-### Instalacja
+### Instalação
 
-Kurs napisany jest z wykorzystaniem generatora statycznych stron internetowych - [Jekyll](https://jekyllrb.com/). 
- 
-W pierwszym kroku należy zainstalować interpreter języka *Ruby* i bibliotekę *Jekyll* - najlepiej przechodząć kroki opisane [tutaj](https://jekyllrb.com/docs/installation/).
+O curso foi escrito usando um gerador de site estático - [Jekyll] (https://jekyllrb.com/).
+ 
+Na primeira etapa, instale o interpretador * Ruby * e a biblioteca * Jekyll * - Para facilitar siga as etapas descritas [aqui] (https://jekyllrb.com/docs/installation/).
 
-Następnie trzeba doinstalować zależności projektu:
+Então você precisa instalar as dependências do projeto:
 ```
 gem install jekyll-watch jekyll-assets
 ```
   
-Uruchomienie kursu:
+Para rodar o site:
 ```
 jekyll serve
 ```
 
-Przygotowanie kursu do wdrożenia:
+Para gerar o site estático:
 ```
 jekyll build
 ```
