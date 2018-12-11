@@ -8,7 +8,7 @@ A nova versão do curso visa aumentar a disponibilidade, usabilidade e enriquece
 
 O curso foi escrito usando um gerador de site estático - [Jekyll](https://jekyllrb.com/).
  
-Na primeira etapa, instale o interpretador * Ruby * e a biblioteca * Jekyll * - Para facilitar siga as etapas descritas [aqui](https://jekyllrb.com/docs/installation/).
+Na primeira etapa, instale o interpretador *Ruby* e a biblioteca *Jekyll* - Para facilitar siga as etapas descritas [aqui](https://jekyllrb.com/docs/installation/).
 
 Então você precisa instalar as dependências do projeto:
 ```
