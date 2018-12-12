@@ -1,8 +1,12 @@
 # Aprenda a Jogar Go Interativamente
 
-Esta é uma versão renovada do curso Go, *traduzida para o português*, que por muitos anos estava disponível em [go.art.pl](http://go.art.pl), que também é uma tradução em polonês do curso de [playgo.to/iwtg/en]( http://playgo.to/iwtg/en/). A versão anterior usava fortemente applets Java, que não são mais suportados pelos navegadores mais recentes e estão completamente indisponíveis em dispositivos móveis.
+Esta é uma versão renovada do curso Go, *traduzida para o português*, que por muitos anos estava disponível em língua portuguesa em [https://go.alamino.net/playgoto](go.alamino.net/playgoto) e em polonês no endereço [go.art.pl](http://go.art.pl), que são traduções do curso original em inglês [playgo.to/iwtg/en]( http://playgo.to/iwtg/en/). 
 
-A nova versão do curso visa aumentar a disponibilidade, usabilidade e enriquecer o curso com novas lições e materiais.
+As versões anteriores usavam applets Java, que não são mais suportados pela maioria dos navegadores mais recentes e estão completamente indisponíveis em dispositivos móveis.
+
+A nova versão do curso visa aumentar a usabilidade e enriquecer o curso com novas lições e materiais.
+
+Nessa versão em português, já estão incluídas todas as partidas do AlphaGo contra mestres de Go.
  
 ### Instalação
 
