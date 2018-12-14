@@ -3,9 +3,13 @@
         <option value="/">Introdução</option>
         {% assign i = 1 %}
         {% for lesson in site.lessons %}
-        {% if lesson.title == 'Jogos entre Fan Hui(2p) e AlphaGo' %}
+    {% if lesson.title == 'Jogos entre Fan Hui(2p) e AlphaGo' %}
     </optgroup>
     <optgroup label="Partidas do AlphaGo">
+    {% endif %}
+    {% if lesson.title == 'O que é Go' %}
+    </optgroup>
+    <optgroup label="Teoria do Go">
     {% endif %}
         <option value="{{ lesson.url | replace: 'index.html', '' }}"{% if lesson.title == page.title %} selected{% endif %}>{{ i }}. {{ lesson.title }}</option>
         {% assign i = i | plus: 1 %}
